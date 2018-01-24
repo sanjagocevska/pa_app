@@ -1,0 +1,24 @@
+{
+  "name": "pricingalgorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node --ignore=[] index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.demo-chemeasy.com/sanja.gocevska/pa_app.git"
+  },
+  "author": "Sanja Gocevska",
+  "license": "ISC",
+  "dependencies": {
+    "pricing-agorithm": "git+https://gitlab.demo-chemeasy.com/sanja.gocevska/pa_components.git"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.5",
+    "@types/node": "^9.3.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
